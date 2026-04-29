@@ -2,7 +2,7 @@
 
 A cinematic, fully interactive browser-based sales deck built for Mall of America. Designed to replace fragmented pitch processes with a single, immersive experience for prospective tenants, sponsors, and event partners.
 
-**Live Demo:** [Add your Netlify URL here after deployment]
+**Live Demo:** https://mall-of-america-deck.netlify.app/
 
 ---
 
@@ -80,6 +80,7 @@ mall-deck/
 │   ├── components/
 │   │   └── Nav.jsx      # Fixed navigation bar
 │   ├── sections/
+│   │   ├── Calculator.jsx         # Opening i want to be here slide
 │   │   ├── Hero.jsx         # Opening cinematic slide
 │   │   ├── WhyMOA.jsx       # Data & stats slide
 │   │   ├── Retail.jsx       # Retail environment slide
@@ -100,8 +101,6 @@ mall-deck/
 
 **Framer Motion for animations:** Entrance animations on every slide make content feel intentional and cinematic rather than static. Counters on the Why MOA slide make data feel alive.
 
-**Local images over CDN:** External image URLs introduced reliability issues during development. All images are bundled locally for consistent load performance.
-
 ---
 
 ## What I Would Improve With More Time
@@ -117,12 +116,5 @@ mall-deck/
 
 ---
 
-## Image Credits
-
-Images sourced from Wikimedia Commons under Creative Commons licenses.
-All Mall of America trademarks and branding belong to Triple Five Group.
-This project is a portfolio/interview submission and is not affiliated with Mall of America.
-
----
 
 *Built as part of an interview project for Liat.ai*
